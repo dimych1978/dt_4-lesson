@@ -15,3 +15,5 @@ const between = (str, quotes) => {
   }
   return str;
 };
+
+between(1,0);
