@@ -1,4 +1,5 @@
-import * as _ from "lodash"; 
+// import * as _ from "lodash"; 
+import {between} from "./between"
 
 function component(text: string) {
   const element = document.createElement('h1');
@@ -9,4 +10,4 @@ function component(text: string) {
 document.body.prepend(component('Проект собран на Webpack'));
 document.body.append(component('eee'));
 
-
+// between('fucking', 'cki');

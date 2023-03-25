@@ -8,5 +8,19 @@
 <script defer src="bundle.js"></script></head>
 <body>
     <h1>run</h1>
+    <script src="src/between.js"></script>
+    <script>
+        between(1,0);
+    </script>
+    <script>
+            function component(text) {
+  const element = document.createElement('h1');
+  element.textContent = text;
+  return element;
+}
+
+document.body.prepend(component('Проект собран на Webpack'));
+
+    </script>
 </body>
 </html>
